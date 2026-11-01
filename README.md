@@ -31,10 +31,7 @@ cosign verify-attestation --type spdxjson osixia/age:1.3.2 \
 
 ## 🧪 Build and test
 
-``` bash
-docker build -t osixia/age:test .
-tests/run.sh osixia/age:test
-```
+Images are built, tested and published with [osixia/dagger-build](https://github.com/osixia/dagger-build), see [build/README.md](build/README.md).
 
 ## 🔓 License
 

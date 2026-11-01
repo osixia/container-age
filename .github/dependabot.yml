@@ -9,7 +9,11 @@ updates:
         patterns:
           - "*"
 
-  - package-ecosystem: docker
-    directory: /
+  - package-ecosystem: gomod
+    directory: /build
     schedule:
       interval: monthly
+    groups:
+      go-modules:
+        patterns:
+          - "*"

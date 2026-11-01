@@ -9,3 +9,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com) and this p
   - age 1.3.2 from the Alpine 3.24 package, for amd64 and arm64
   - Non-root image with a pinned base image
   - Keyless cosign signature and SBOM attestation for each release
+  - Build, tests and publication with osixia/dagger-build
